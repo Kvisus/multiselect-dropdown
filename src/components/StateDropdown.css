@@ -1,0 +1,38 @@
+.state-dropdown{
+  position: relative;
+  border: none;
+}
+
+.state-dropdown button{
+  background: white;
+  height: 40px;
+  width: 200px;
+  color:black;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  font-size: 18px;
+}
+
+.panel{
+  position: absolute;
+  background: white;
+  padding: 10px;
+  color:black;
+  /* width: 100%; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 14px;
+  overflow-y: auto;
+  height: 300px;
+}
+.panel fieldset{
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  border: none;
+}
+
+.panel fieldset.selected{
+  background-color: rgba(0, 0, 15,0.4);
+}

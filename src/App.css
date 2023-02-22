@@ -1,0 +1,7 @@
+body{
+  background-color: darkgray;
+  display: flex;
+  /* height: 100vh; */
+  padding: 100px;
+  gap: 20px;
+}
